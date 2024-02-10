@@ -639,10 +639,21 @@ video{
 }
 
 @media screen and (max-width: 400px) {
-    .card-body{
-         width: 220%;
+   .card-body{
+         width: 150%;
          margin-left: -50px;
          height: 200px;
+    }
+    .active{
+        width: 150%;
+        margin-left: -50px;
+    }
+    .furniture{
+        width: 100%;
+    }
+    .read_button{
+        width: 81%;
+        line-height: 22px;
     }
     .mb-5{
         font-size: 20px;
